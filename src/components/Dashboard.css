@@ -1,0 +1,77 @@
+.dashboard {
+    padding: 25px;
+    display: flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+
+input {
+    background-color: #DCDCDC;
+    border: none;
+    border-radius: 7px;
+}
+
+::placeholder { 
+    color: #000000;
+    font-size: 1.1rem;
+  }
+  
+
+.dashboard__row1 > input { 
+    padding: 10px;
+    width: 60%;
+}
+
+.dashboard__row2 > input { 
+    padding: 8px;
+    flex : 0.2;
+}
+
+.dashboard__row2 > input::placeholder { 
+  font-size: 0.8rem;
+}
+
+
+.dashboard > h2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.dashboard__row1 {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashboard__row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dashboard__row3 {
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.dashboard__row3 > input {
+    width: 100%;
+    padding: 12px;
+}
+
+.dashboard__btn {
+    text-align: right;
+}
+
+.dashboard__btn > button {
+    cursor: pointer;
+    background-color: #C4C4C4;
+    font-weight: 600;
+    padding: 7px;
+    width: 80px;
+    border-radius: 6px;
+    border: none;
+    font-size: 0.9rem;
+}
+

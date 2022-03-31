@@ -1,0 +1,8 @@
+.list > p {
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-left: 25px;
+    padding-top: 25px;
+
+}

@@ -1,0 +1,33 @@
+
+
+.dropdown {
+    width: 200px
+}
+
+
+.option2 {
+    border-bottom: 1px solid #BBBDC2;
+    margin-right: -12px;
+    margin-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 8px;
+}
+
+.option1 > p{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.option3 {
+    text-align: left;
+}
+
+.option3 > p {
+    font-size: 0.6rem;
+}
+
+
+div::-webkit-scrollbar {
+    display: none;
+}
