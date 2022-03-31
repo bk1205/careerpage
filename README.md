@@ -3,4 +3,4 @@ https://careerpageassignment.netlify.app/dashboard
   
   
 https://careerpageassignment.netlify.app/
-  ![alt text](./maincareerpage.jpg)
+  ![alt text](./mainpage.jpg)
